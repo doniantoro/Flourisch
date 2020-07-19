@@ -16,7 +16,7 @@ Flourisch &mdash; Promote your event here!
             <div class="col-md-10 text-center col-sm-12 element-animate">
               <h1>Make Your Event</h1>
               <p class="mb-5 sub-text">Share your event to our community and make everyone here know how amazing your works are!</p>
-              <p><a href="#" class="btn btn-white btn-outline-white px-3 py-3">Get Started</a></p>
+              <p><a href="login" class="btn btn-white btn-outline-white px-3 py-3">Get Started</a></p>
             </div>
           </div>
         </div>

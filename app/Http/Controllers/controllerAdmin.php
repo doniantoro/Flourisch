@@ -15,6 +15,13 @@ use App\Http\Controllers\Controller;
 
 class controllerAdmin extends Controller
 {
+
+ 
+    public function __construct() 
+    {
+        $this->middleware('auth');
+    }
+
     //
     public function order()
     {
@@ -28,6 +35,9 @@ class controllerAdmin extends Controller
 
         return view('admin/index',['event'=>$event]);
     }
+ 
+ 
+ 
     public function event()
     {
         $event=Event::get();
@@ -135,5 +145,6 @@ class controllerAdmin extends Controller
                 
         return redirect()->back();
     }
+
 
 }

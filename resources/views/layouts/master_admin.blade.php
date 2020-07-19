@@ -65,14 +65,14 @@ scratch. This page gets rid of all links and provides the needed markup only.
       <!-- Sidebar Menu -->
       <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-        <li class="nav-item">
+        <!-- <li class="nav-item">
             <a  href="/admin/dashboard/"class="nav-link {{Request::is('admin/dashboard') ? 'active' : ''}}">
             <img src="/../../assets/assets/img/icon/home.png" class="mr-2"style="width:30px;"alt="">
             <p>
                 Home
               </p>
             </a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a  href="/admin/dashboard/order"class="nav-link {{Request::is('admin/dashboard/order') ? 'active' : ''}}">    
           <img src="/../../assets/assets/img/icon/calendar.png" class="mr-2"style="width:30px;"alt="">

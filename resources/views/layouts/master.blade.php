@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="assets/fonts/ionicons/css/ionicons.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/flaticon/font/flaticon.css">
-    <link rel="stylesheet" href="assets/css/style.css">">
+    <link rel="stylesheet" href="assets/css/style.css">
 
 
   </head>
@@ -29,13 +29,10 @@
               <li class="nav-item">
                 <a class="nav-link active" href="index.html">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="signin.html">Dashboard</a>
-              </li>            
             </ul>
 
             <ul class="navbar-nav ml-auto">
-              <li><a href="signup" target="_blank" class="btn btn-primary px-3 py-2 mr-2">Sign Up</a></li>
+              <li><a href="register" target="_blank" class="btn btn-primary px-3 py-2 mr-2">Sign Up</a></li>
               <li><a href="login" target="_blank" class="btn btn-primary px-3 py-2">Login</a></li>
             </ul>
             
